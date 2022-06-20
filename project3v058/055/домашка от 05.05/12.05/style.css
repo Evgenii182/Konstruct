@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300;1,900&display=swap');
+@font-face {
+    font-family: 'Pacifico-Regular';
+    src: url(Pacifico-Regular.ttf);
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+}
+h1{
+    text-align: center;
+    font-weight: 900;
+    text-shadow: 5px 5px 5px rgb(255,0,0);
+    text-decoration:underline;
+}
+ol{
+    font-family: Pacifico-Regular;
+    padding-left: 40%;
+}
+p{
+ white-space: pre;
+ word-wrap: break-word;
+}
+table{
+    border-collapse: collapse;
+    margin: 100px auto 0px auto;
+    width: 80%;
+    height: auto;
+    background-color: rgb(121, 70, 4);
+}
+td, th{
+    border: 1px solid #000;
+    height: 60px;
+    padding: 0px 10px;
+}
+th{
+    background-color: rgb(18, 228, 228);
+    color: rgb(245, 243, 243);
+}
+tr{
+    border-bottom: 3px dashed rgb(55, 5, 112) ;
+}
+td[colspan="3"]{
+    text-align: center;
+}
+.number{
+    text-align: center;
+    width: 70px;
+}
+div{
+    width: 500px;
+    height: 300px;
+    margin: 50px auto;
+    background-color: rgb(167, 10, 10);
+    padding: 30px;
+    border: 20px double #000;
+}
+.block1{
+    box-sizing: content-box;   
+}
+.block2{
+    box-sizing: border-box;
+}

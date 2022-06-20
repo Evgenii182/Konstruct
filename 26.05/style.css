@@ -1,0 +1,42 @@
+.block{
+    width: 20%;
+    height: 200px;
+    background-color: blue;
+    /*transition: 5s ease-out 3s;*/
+    position: absolute;
+    animation: folder 1s ease-out infinite;
+    left: 0%;
+    top: 100px;
+}
+/*.animate:hover .block{
+    background-color: rgb(249, 169, 0);
+    left: 80%;
+}*/
+.animate{
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+}
+@keyframes folder {
+    from{
+        top: 100px;
+        left: 0px;
+        right: 0px;
+        bottom: 0px;
+    }
+    25%{
+        top: 100px;
+    }
+    50%{
+        top: 600px;
+        left: 100px;
+    }
+    65%{
+        top: 300px;
+    }
+    to {
+        left: 0px;
+        top: 600px;
+
+    }
+}
